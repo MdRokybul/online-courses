@@ -10,7 +10,7 @@ const Course = (props) => {
             </div>
             <div className='details-container'>
                 <h3> {name} </h3>
-                <p> Price: {price} </p>
+                <p> Price: ${price} </p>
                 <button className="btn btn-primary" onClick={() => props.handleEnrollNow(props.course)}> Enroll Now </button>
             </div>
         </div>
